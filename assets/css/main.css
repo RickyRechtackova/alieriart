@@ -1,0 +1,103 @@
+/* general css */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    background-color: #cbffa8;
+}
+
+/* toolbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #e4cdfe; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#7F34E0, #ce82ff); 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(#5819aa, #a844eb); 
+}
+
+/* banner */
+#banner{
+    padding: 0;
+    margin-bottom: -0.2%;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+
+}
+
+/* menu */
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #cbffa8;
+
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    padding-left: 9%;
+    padding-right: 9%;
+    justify-content: space-between;
+  }
+  
+  li {
+    float: left;
+    width: 28%;
+
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    font-size: 2em;
+    text-align: center;
+    padding: 3%;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #5ba02d;
+    color: white;
+  }
+  
+  .active {
+    background-color: #a11692;
+    color: white;
+  }
+
+  /* concent div */
+  .content{
+    margin:auto;
+    background-color: #F8FFF3;
+    width: 80%;
+    height: auto;
+    padding: 1%;
+  }
+
+/* homepage */
+#profile-picture{
+    float:left;
+    width: 25%;
+    height: 500px;
+    border-style: solid;
+    border-color: #511864;
+
+}
+
+#about-text{
+    float: left;
+}
